@@ -92,6 +92,10 @@ body {
     max-height: 200px;
     margin: 20px;
 }
+.jumbotron h1{
+    color: black;
+    text-shadow: 2px 2px #ff6200;
+}
 
 .jumbotron{
     background-image: url(../images/02-hero-bg.jpg);
