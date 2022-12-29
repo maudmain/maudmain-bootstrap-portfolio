@@ -1,0 +1,122 @@
+/* General style*/
+:root {
+    --font-family: Arial, Helvetica, sans-serif;
+    --bold-font: 700;
+    --bg-color: black;
+    --primary-color: white;
+    --secondary-color: grey;
+    --border-color: #FF6200;
+    --bottom-margin: 0.5rem;
+    --transition: 0.3s;
+}
+
+/*Page style*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+.project:hover {
+    opacity: 0.5;
+}
+
+h1, h2 {
+    color: var(--border-color);
+}
+
+h2 {
+    border-bottom: 1px, solid var(--border-color);
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+.container{
+    width:100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.section-heading{
+    border-bottom: 3px solid var(--border-color);
+    padding:10px;
+    margin-bottom: 20px;
+}
+
+/*Navbar*/
+.navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    flex-wrap: wrap;
+}
+
+.navbar-toggler{
+    color: var(--primary-color)
+}
+
+.navbar-collapse {
+    flex-direction: row-reverse;
+}
+
+nav a:hover {
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+
+/*Hero*/
+
+.masthead{
+    min-height: 300px;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.img-thumbnail{
+    max-height: 200px;
+    margin: 20px;
+}
+
+.jumbotron{
+    background-image: url(../images/02-hero-bg.jpg);
+    background-size: cover;
+}
+
+#quote{
+    color: var(--border-color);
+}
+
+.btn{
+    color: var(--primary-color);
+    background-color: var(--border-color)
+}
+
+/*Portfolio cards*/
+
+
