@@ -5,7 +5,9 @@
     --bg-color: black;
     --primary-color: white;
     --secondary-color: grey;
+    --hero-quote: #ff6200;
     --border-color: #FF6200;
+    --btn-color:#ff6200;
     --bottom-margin: 0.5rem;
     --transition: 0.3s;
 }
@@ -109,14 +111,23 @@ nav a:hover {
 }
 
 #quote{
-    color: var(--border-color);
+    color: var(--hero-quote);
 }
 
 .btn{
     color: var(--primary-color);
-    background-color: var(--border-color)
+    background-color: var(--btn-color);
+    border-color: var(--btn-color);
 }
 
-/*Portfolio cards*/
+/*Portfolio cards- bootstrap*/
+
+
+/*about me- bootstrap*/
+
+/*contact*/
+.contact-card{
+    color: black;
+}
 
 
