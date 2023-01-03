@@ -77,6 +77,11 @@ body {
     flex-direction: row-reverse;
 }
 
+.nav-item{
+     background-color: var(--bg-color);
+    color: var(--primary-color);
+}
+
 
 
 /*Hero*/
@@ -161,5 +166,6 @@ h4 .text-uppercase:hover{
 }
 
 @media (max-width: 575.98px) { 
+    
     
 }
