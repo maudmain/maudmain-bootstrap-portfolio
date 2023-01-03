@@ -165,7 +165,8 @@ h4 .text-uppercase:hover{
 
 }
 
-@media (max-width: 575.98px) { 
-    
-    
+@media screen and (max-width: 575.98px) { 
+    .jumbotron .container {
+        flex-direction: column;
+    }
 }
