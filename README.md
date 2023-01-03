@@ -33,7 +33,7 @@ Have a look at: [Deployed landing page](https://maudmain.github.io/maudmain-boot
 ## Credits
 Photos and content credit:
 
-- edX Bootcamp: for project brief, tutorial and ressources
+- edX Bootcamp: for project brief abd criterias, tutorial and ressources
 - W3Schools for tutorials (and source code for the skills progress bar)
 - Photo by Ibrahim Abazid on Unsplash
 - Photo by charlesdeluvio on Unsplash
